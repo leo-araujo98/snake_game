@@ -38,8 +38,14 @@ body {
 
 .botão {
     position: absolute;
-    left: 10px;
-    top: 10px;
+
+    background: #6fc355;
+    border: 0px;
+    padding: 10px 25px;
+    border-radius: 24px;
+    left: 20px;
+    top: 20px;
+    box-shadow: -4px 5px rgba(0, 0, 0, 0.24);
     /* padding: -300px; */
     /* margin: -300px; */
 

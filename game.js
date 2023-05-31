@@ -14,7 +14,7 @@ requestAnimationFrame(main)
 
 function main(currentTime) {
     if (gameOver) {
-        if (confirm('You lost!')) {
+        if (confirm('Você Perdeu')) {
             location = '/'
         }
         return
