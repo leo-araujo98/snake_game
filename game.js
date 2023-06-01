@@ -22,7 +22,7 @@ function main(currentTime) {
 
     requestAnimationFrame(main)
 
-    const secondsSinceLastRender = (currentTime - lastRenderTime) / 1000
+    const secondsSinceLastRender = (currentTime - lastRenderTime) / 400
 
     if (secondsSinceLastRender < 1 / SNAKE_SPEED) return
 

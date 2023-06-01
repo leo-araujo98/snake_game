@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Roboto&display=swap');
+
+
+* {
+
+    background-color: #fafc94;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+.aling {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px;
+}
+
+#menuText {
+    color: #6fc355;
+    font-family: 'Concert One', cursive;
+    font-size: 50px;
+    text-shadow: -4px 3px #d84242;
+}
+
+.botões {
+
+    border-radius: 20px;
+    background-color: #6fc355;
+    padding: 50px 50px;
+    text-align: center;
+    box-shadow: -5px 5px 5px #335c28;
+}
+
+.jogar {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    background-color: #eb2e2e;
+    color: #ffffff;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+    box-shadow: -2px 2px 5px #22cf95;
+}
+
+.jogar:hover {
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 2px -2px 2.5px #dee048;
+    background-color: #cf2b2b;
+    color: #b6b6b6;
+}
+
+.score {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1em;
+    background-color: #eb2e2e;
+    text-align: center;
+    width: 400px;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: 8px;
+    border: 0px;
+    box-shadow: -2px 2px 5px #22cf95;
+}
+
+.score:hover {
+    font-family: 'Roboto', sans-serif;
+    box-shadow: inset 2px -2px 2.5px #dee048;
+    background-color: #cf2b2b;
+    color: #b6b6b6;
+}
